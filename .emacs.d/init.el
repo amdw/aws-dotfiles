@@ -75,3 +75,6 @@
 (require 'jade-mode)    
 (add-to-list 'auto-mode-alist '("\\.styl$" . sws-mode))
 (add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
+
+(setq tab-width 4)
+(setq indent-tabs-mode nil)
